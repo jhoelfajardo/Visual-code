@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap");
+
+
+body{
+    margin: 20px;
+    width: 100%;
+    background-color:azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Logo inicial */
+#Logo{
+    width: 150px;  
+}
+
+/* Letras en parrafo */
+p{
+    margin: 20px;
+    line-height: 25px;
+}
+
+/* Barra Navegadora */
+#Navegador {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* Letras en enlaces */
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Letras en enlaces en nav */
+nav a{
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 3px 9px;
+    font-family: "Rye", serif;
+}
+
+/* Cuando se "activa" a */
+a:active{
+    color: rgb(10, 39, 4);
+}
+
+/* Primera imagen */
+#ImagenInicio{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+/* Los párrafos en incio */
+#Inicio p{
+    margin: auto;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* División Entradas/Lineup */
+.DivInicio{    
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    border: solid 2px rgb(0, 0, 0); 
+    padding: 10px 15px;   
+    border-radius: 20px;
+}
+
+/* Enlaces "a" en la división de arriba */
+.DivInicio a{
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+#VerEntrada{
+    border-bottom: solid rgb(177, 32, 32);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#VerLineup{
+    border-bottom: solid rgb(177, 32, 32);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+
+
+/* Cuadro del lineup */
+.Lineup{
+    
+    background-color: brown;
+    border-radius: 20px;;
+    padding: 20px; /*Espacio con los bordes del flex*/
+    margin: auto;
+    margin-top: 15px; /*Margen con el item de arriba*/
+    width:70%;
+}
+
+.GridLineup{
+    display:flex;
+    flex-direction: row;
+    font-weight: 800;
+    font-size: 30px;
+    border: solid blue; 
+    gap: 50px;
+}
+
+.GridLineup label{
+    border: solid rgb(216, 16, 199);
+    
+}
+
+
+/* Para que no se muestre el input (radio/punto) */
+.DesplegableLineup input{
+    display: none;
+}
+
+/* Ocultar los artistas */
+.Artistas{
+    display: none;
+}
+
+.DesplegableLineup{
+    align-items: right;
+}
+/* ?? */
+.DesplegableLineup input:checked ~ .Artistas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(51, 255, 0);
+    border:solid rgb(51, 255, 0);
+    margin-right: 10px;
+    text-align: left;
+    width: auto;
+    font-size: 30px;
+}
