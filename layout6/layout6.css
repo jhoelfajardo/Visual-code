@@ -1,0 +1,25 @@
+body{
+    justify-content: right;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+#Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h1{
+    padding-left: 15px;
+}
+
+h2{
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+}
+
+hr{
+    margin-top: 35px;
+    width: 90%;
+}
