@@ -1,0 +1,53 @@
+
+
+img{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+div{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Botones{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#Menu{
+    margin-top: 50px;
+}
+
+#Login{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 15%;
+    margin: auto;
+    text-decoration: none;
+    padding: 7px 30px;
+    margin-bottom: 8px;
+
+
+}
+
+#Signup{
+    color: black;
+    border-color: black;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 15%;
+    margin: auto;
+    text-decoration: none;
+    padding: 5px 30px;
+
+
+}
